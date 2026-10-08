@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local SQLite database (recreated and seeded on startup)
+*.db
+*.sqlite3
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env*.local
+
+# Editors
+.vscode/
+.idea/
+
+# Local signing key for AI draft integrity
+.docuforge_secret
